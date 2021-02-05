@@ -1,11 +1,11 @@
 # game.py
 
-
 import random
 #from random import choice
 
+
 print("-------------------")
-print("Welcome 'Player One' to my Rock-Paper-Scissors game...")
+print("Welcome 'Anthony Redfern' to my Rock-Paper-Scissors game...")
 print("-------------------")
 
 #
@@ -56,6 +56,7 @@ print(f"The computer chose: {computer_choice}")
 #determining who won
 #
 
+#accessed the below code from Professor Rossetti on Slack
 if user_choice == "rock":
     if computer_choice == "rock":
         print("Oh, it's a tie.")

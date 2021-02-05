@@ -1,0 +1,20 @@
+## These are the files needed prior to the begining of the file
+
+#this is the requirements.txt file
+
+python-dotenv # see: https://github.com/theskumar/python-dotenv
+
+## pip install requirements
+ And we should add a pip install -r requirements.txt step to
+  the README file to instruct the user to install packages before trying 
+  to run the program.
+
+ Installation -> pip install python-dotenv
+
+  #.env file upload 
+In in the root directory of your local repository, create a new file
+ called ".env", and update the contents of the ".env" file to specify 
+ your desired username
+
+
+  
