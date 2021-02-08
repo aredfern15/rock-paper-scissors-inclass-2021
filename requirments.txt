@@ -1,4 +1,4 @@
-## These are the files needed prior to the begining of the file
+## These are the files needed prior to the beginning of the file
 
 #this is the requirements.txt file
 
