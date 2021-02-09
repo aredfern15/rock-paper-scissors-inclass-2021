@@ -8,12 +8,11 @@ from dotenv import load_dotenv # see: https://github.com/theskumar/python-dotenv
 #from app.my_mod import to_usd
 
 load_dotenv()
-USER_NAME = os.getenv("USER_NAME", default="Player One") # uses the os module to read the specified environment variable and store it in a corresponding python variable
-
-
+player_name = input("Hello, please enter your name: ")
+print("Rock, Paper, Scissors, Shoot!")
 
 print("-------------------")
-print("Welcome 'Player One' to my Rock-Paper-Scissors game...")
+print("Welcome", player_name, "to my Rock-Paper-Scissors game...")
 print("-------------------")
 
 #
