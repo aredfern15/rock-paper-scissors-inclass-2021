@@ -101,7 +101,8 @@ Finally, update your program to allow the user to configure their own player nam
 
 In in the root directory of your local repository, create a new file called ".env", and update the contents of the ".env" file to specify your desired username:
 
-PLAYER_NAME = "
+player_name = input ("Welcome, player_name, please enter your name: ")
+
 NOTE: the ".env" file is usually the place for passing configuration options and secret credentials, so as a best practice we don't upload this file to version control (which is accomplished via a corresponding entry in the .gitignore file)
 
 
